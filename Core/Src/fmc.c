@@ -37,8 +37,8 @@ void MX_FMC_Init(void)
 
   /* USER CODE END FMC_Init 0 */
 
-  FMC_NORSRAM_TimingTypeDef Timing;
-  FMC_NORSRAM_TimingTypeDef ExtTiming;
+  FMC_NORSRAM_TimingTypeDef Timing = {0};
+  FMC_NORSRAM_TimingTypeDef ExtTiming = {0};
 
   /* USER CODE BEGIN FMC_Init 1 */
 
