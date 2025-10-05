@@ -2,7 +2,6 @@
 #include "time.h"
 #include "sys/sys.h"
 #include "tim.h"
-#include "rtc.h"
 #include "rtc/rtc_ex.h"
 #include "lcd/lcd.h"
 #include "tim_callback.h"

@@ -50,8 +50,8 @@ add_executable(${CMAKE_PROJECT_NAME}
     Lib/rtc/rtc_ex.c
     Lib/rtc/rtc_ex.h
     Core/Inc/bitmap.h
-    Core/Src/tim_callback.c
     Core/Inc/tim_callback.h
+    Core/Src/tim_callback.c
 )
 
 # Add STM32CubeMX generated sources

@@ -1,7 +1,5 @@
-#include "delay.h"
-
 #include "sys/sys.h"
-#include "tim.h"
+#include "delay.h"
 
 get_tick_func_t g_get_tick_func;
 
